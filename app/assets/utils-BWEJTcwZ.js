@@ -1,0 +1,2 @@
+import{f as a}from"./index-DG1BSOqx.js";function s(t){const e=new Date().getTime();return a.book.updatePartialBookById(t,{startReadDate:e,lastReadDate:e,lastReadPage:0,progress:0})}function n(t,e){const o=new Date().getTime();return a.book.updatePartialBookById(t,{lastReadDate:o,lastReadPage:e})}function d(t,e){return t===void 0||e===void 0?"-":(t/e*100).toFixed(2)}export{d as c,s,n as u};
+//# sourceMappingURL=utils-BWEJTcwZ.js.map
